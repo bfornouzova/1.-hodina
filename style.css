@@ -1,0 +1,55 @@
+.rodina{
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: top;
+    margin: 10px;
+    
+    min-width: 300px;
+    padding: 10px;
+     background-color: grey;
+     flex-wrap: wrap;
+
+}
+.kariera{
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: top;
+    margin: 10px;
+    min-width: 300px;
+    padding: 10px;
+     background-color: grey;
+     flex-wrap: wrap;
+}
+.konicky{
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: top;
+    margin: 10px;
+   
+    min-width: 300px;
+    padding: 10px;
+     background-color: grey;
+     flex-wrap: wrap;
+    }
+    .karta-obrazky {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .karta-obrazky > div {
+        border: 1px solid #ccc;
+        padding: 15px;
+        width: 200px;
+        box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        flex-wrap: wrap;
+    }
+    .karta-obrazky > div img {
+        width: 100%;        /* Obrázek zabere šířku celé karty */
+        height: auto;       /* Výška se přizpůsobí proporcím */
+        border-radius: 5px; /* Zaoblené rohy, aby to ladilo s kartou */
+        display: block;     /* Aby obrázek neměl spodní mezeru */
+        object-fit: cover;  /* Obrázek se přizpůsobí rámečku, ořízne se pokud je potřeba */ 
+        }
